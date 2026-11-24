@@ -1,9 +1,13 @@
 Hi, I'm Modestas 👋
 
-I'm researching specification-driven compiler development, mostly parser generation.
+I'm researching specification-driven compiler development, primarily focusing on parser generation.
 
-My goal is to generate parsers that are correct by construction and optimally efficient. In particular, I'm focusing on bottom-up parsing, bringing existing research on more expressive parsing techniques into practical tools and extending it where needed.
+My goal is to generate parsers that are correct by construction and optimally efficient.
 
-For a long time I've done this work privately. Now I'm starting to bring it out of the lab and put it to use. One of the first applications is fuzzing language implementations, which has uncovered bugs in the parsers of the [Dart SDK](https://github.com/dart-lang/sdk/issues/64835) and [Drift](https://github.com/simolus3/drift/issues/3911).
-
-I'm also working on [SIMD in Dart](https://github.com/dart-lang/sdk/issues/64170). I still do Flutter, but these days my focus is almost entirely on compilers.
+I'm starting to bring it out of the lab. One of the first applications is fuzzing language implementations:
+ - Dart: https://github.com/dart-lang/sdk/issues/64835
+ - SQLite (in [Drift](https://drift.simonbinder.eu)): https://github.com/simolus3/drift/issues/3911, https://github.com/simolus3/drift/issues/3912.
+ - OCaml: https://github.com/ocaml/ocaml/issues/15402
+ - OxCaml: https://github.com/oxcaml/oxcaml/issues/8323
+   
+I'm also working on bringing better SIMD to Dart (https://github.com/dart-lang/sdk/issues/64170).

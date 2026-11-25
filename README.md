@@ -1,6 +1,6 @@
 Hi, I'm Modestas 👋
 
-I'm researching specification-driven compiler development, primarily focusing on parser generation.
+I'm researching specification-derived compiler development, primarily focusing on parser generation.
 
 My goal is to generate parsers that are correct by construction and optimally efficient.
 
